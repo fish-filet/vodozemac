@@ -196,7 +196,7 @@
 #![deny(
     clippy::mem_forget,
     clippy::unwrap_used,
-    dead_code,
+    // dead_code,
     trivial_casts,
     trivial_numeric_casts,
     unsafe_code,
@@ -216,6 +216,7 @@ pub mod hazmat;
 pub mod megolm;
 pub mod olm;
 pub mod sas;
+pub mod backups;
 
 pub use base64::DecodeError as Base64DecodeError;
 pub use prost::DecodeError as ProtoBufDecodeError;

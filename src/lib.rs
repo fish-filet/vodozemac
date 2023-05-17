@@ -212,11 +212,11 @@ mod cipher;
 mod types;
 mod utilities;
 
+pub mod backups;
 pub mod hazmat;
 pub mod megolm;
 pub mod olm;
 pub mod sas;
-pub mod backups;
 
 pub use base64::DecodeError as Base64DecodeError;
 pub use prost::DecodeError as ProtoBufDecodeError;
